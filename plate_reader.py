@@ -148,7 +148,8 @@ class PlateReaderApp:
         try:
             results, annotated = pipeline.process_frame(frame)
         except Exception as exc:
-            self.root.after(0, lambda: messagebox.showerror("Pipeline error", str(exc)))
+            error_message = str(exc)
+            self.root.after(0, lambda msg=error_message: messagebox.showerror("Pipeline error", msg))
             self.root.after(0, lambda: self.set_status("Error"))
             return
 
