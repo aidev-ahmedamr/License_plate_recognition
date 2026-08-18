@@ -1,0 +1,6 @@
+{
+  "_comment": "Example only — delete this key. Real entries: filename -> list of {bbox:[x1,y1,x2,y2], text}.",
+  "example_car.jpg": [
+    { "bbox": [120, 340, 260, 400], "text": "1234 ABC" }
+  ]
+}

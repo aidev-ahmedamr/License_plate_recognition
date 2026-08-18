@@ -1,0 +1,7 @@
+ultralytics>=8.2.0
+easyocr>=1.7.1
+opencv-python>=4.9.0
+numpy>=1.26.0
+pillow>=10.0.0
+flask>=3.0.0
+werkzeug>=3.0.0

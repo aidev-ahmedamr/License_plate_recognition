@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Model weights and training runs (large files — don't commit to git)
+*.pt
+runs/
+dataset/
+
+# Your personal test set images (keep labels.example.json as the template)
+test_set/images/*
+!test_set/images/.gitkeep
+test_set/labels.json
+
+# EasyOCR / model caches
+.EasyOCR/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+uploads/
