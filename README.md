@@ -123,9 +123,8 @@ makes a senior engineer trust the project.
 
 ## Results
 
-*(Fill this in once you've trained on your dataset and run `evaluate.py` —
-a real number here is worth more than any amount of polish elsewhere.)*
-
+| Metric | Score | Test set |
+|---|---|---|
 | Detection mAP50 | 0.976 | License Plate Recognition v4 (val split) |
 | Detection mAP50-95 | 0.667 | License Plate Recognition v4 (val split) |
 
@@ -158,4 +157,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Pre-trained weights
 
-Download the fine-tuned detector from [Releases](https://github.com/aidev-ahmedamr/License_plate_recognition/releases/tag/v1.0-model) — YOLOv8n trained on the License Plate Recognition v4 dataset (10 epochs, mAP50: 0.976, mAP50-95: 0.667).
+Download the fine-tuned detector from [Releases](https://github.com/aidev-ahmedamr/License_plate_recognition/actions/workflows/ci.yml/badge.svg) — YOLOv8n trained on the License Plate Recognition v4 dataset (10 epochs, mAP50: 0.976, mAP50-95: 0.667).
