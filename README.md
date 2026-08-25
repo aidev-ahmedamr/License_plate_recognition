@@ -126,13 +126,8 @@ makes a senior engineer trust the project.
 *(Fill this in once you've trained on your dataset and run `evaluate.py` —
 a real number here is worth more than any amount of polish elsewhere.)*
 
-| Metric | Score | Test set |
-|---|---|---|
-| Detection precision | — | — |
-| Detection recall | — | — |
-| Detection F1 | — | — |
-| OCR character accuracy | — | — |
-| End-to-end exact-match accuracy | — | — |
+| Detection mAP50 | 0.976 | License Plate Recognition v4 (val split) |
+| Detection mAP50-95 | 0.667 | License Plate Recognition v4 (val split) |
 
 ## Tests
 
@@ -154,9 +149,13 @@ they run in seconds and are what CI runs on every push.
 - [x] Multi-frame tracking with majority vote
 - [x] Desktop app, REST API, Docker packaging
 - [x] Unit tests + CI
-- [ ] Custom-trained detector (train on your own dataset — see above)
+- [X] Custom-trained detector (train on your own dataset — see above)
 - [ ] Evaluation numbers filled in from a real test set
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Pre-trained weights
+
+Download the fine-tuned detector from [Releases](https://github.com/aidev-ahmedamr/License_plate_recognition/releases/tag/v1.0-model) — YOLOv8n trained on the License Plate Recognition v4 dataset (10 epochs, mAP50: 0.976, mAP50-95: 0.667).
